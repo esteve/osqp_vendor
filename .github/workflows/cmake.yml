@@ -18,6 +18,8 @@ jobs:
     # See: https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#configuring-a-build-matrix
     runs-on: ubuntu-latest
 
+    container: ros:foxy
+
     steps:
     - uses: actions/checkout@v2
 
