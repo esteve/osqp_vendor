@@ -27,4 +27,4 @@ jobs:
       run: . /opt/ros/foxy/setup.sh && colcon build
 
     - name: Test
-      run: . /opt/ros/foxy.setup.sh && colcon test
+      run: . /opt/ros/foxy/setup.sh && colcon test
